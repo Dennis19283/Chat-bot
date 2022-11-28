@@ -21,7 +21,7 @@ function botReply(message) {
 		halo: "Halo juga!",
 		nama: "Nama aku Botam",
 		salam: "Salam kenal juga",
-		nanya: "Boleh, mau nanya apa?",
+		bertanya: "Boleh, mau nanya apa?",
 		makanan: "Aku suka pisang dan apel :D",
 		tinggal: "Rahasia dong",
 		bye: "Sampai jumpa kembali!",
