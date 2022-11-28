@@ -5,7 +5,6 @@
 	padding: 0;
 }
 
-
 body {
 	display: grid;
 	place-items: center;
@@ -13,6 +12,30 @@ body {
 	font-family: "Poppins", "sans-serif";
 	color:black;
 	background-color:azure;
+	margin: 0%;
+	padding: 0%;
+	scroll-behavior: smooth;
+}
+
+ul {
+	display: flex;
+	gap: 10px;
+	background-color: #222222;
+	justify-content: center;
+	align-items: center;
+}
+  
+.nav__links {
+	list-style: none;
+}
+
+.nav__links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav__links li a{
+	transition: all 0.3s ease 0s;
 }
 
 h1 {
@@ -68,3 +91,28 @@ span {
 	accent-color: #42855b;
 	font-family: "Poppins", "sans-serif";
 }
+
+.loaders {
+	width: 85px;
+	height: 85px;
+	position: absolute;
+	border-top: 15px solid cornflowerblue;
+	border-radius: 5px;
+	border-top: 5px;
+	top: 50;
+	left:50%;
+	bottom: 50;
+	z-index: 9;
+	animation: 1s spin infinite linear;
+}
+
+@keyframes spin {
+	0% {
+	  transform: rotate(0deg);
+	}
+  
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
