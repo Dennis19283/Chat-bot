@@ -19,9 +19,13 @@ function createChat(from, message) {
 function botReply(message) {
 	const replies = {
 		halo: "Halo juga!",
+		nama: "Nama aku Botam",
+		salam: "Salam kenal juga",
 		nanya: "Boleh, mau nanya apa?",
 		makanan: "Aku suka pisang dan apel :D",
+		tinggal: "Rahasia dong",
 		bye: "Sampai jumpa kembali!",
+
 	};
 	let words = message.split(" ");
 	words = words.map((word) => word.toLowerCase());
@@ -52,3 +56,4 @@ function handleForm(e) {
 }
 
 chatForm.addEventListener("submit", handleForm);
+
